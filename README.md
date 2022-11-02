@@ -15,7 +15,8 @@ Skriptin asennus:
 2. Klikkaa Add script
 3. Kirjoita nimeksi "shelly_spotteri" ja klikkaa Save
 4. Kopioi shelly-spotteri.js tiedoston sisältö valkoiseen isoon tekstikenttään
-5. Muokkaa koodia tarpeittesi mukaan (esim releet ja urlien lämmitystunnit alussa)
+5. Muokkaa koodia tarpeittesi mukaan (esim releet ja urlien lämmitystunnit alussa). Ks. alla screenshot jossa näytetään miten esim pattereiden lämmitystunnit voidaan
+määrätä hinnan mukaan. Arvot asetetaan kyseisen piirin urlin loppuun näin:
 <img src="https://user-images.githubusercontent.com/5729471/199428485-e11ff5bc-5c51-4f08-95d7-bb2d403b0fa8.png" width="600" height="150">
 6. Klikkaa save and run.
 <img src="https://user-images.githubusercontent.com/5729471/199425810-8dfd4d6c-bc7f-4e9d-b1c4-a1009d4d8d13.png" width="600" height="600">
