@@ -1,5 +1,5 @@
 # shelly-spotteri
-Shelly 4pm laitteelle tehty skripti joka tutkii tasaisin välein sähkön spot hintatietoa ja ohjaa kontaktoreita tämän mukaan. Käyttäjä voi päättää monta halvinta tuntia mitäkin piiriä lämmitetään ja mikä on ns. halvan hinnan raja jolloin lämmitys on aina päällä ko. piirille. Skriptiä muokkaamalla voidaan hintaohjaus sovittaa
+Shelly 4pm laitteelle tehty skripti joka tutkii tasaisin välein sähkön spot hintatietoa ja ohjaa kontaktoreita tämän mukaan. Käyttäjä voi päättää monta halvinta tuntia mitäkin piiriä pidetään päällä ja mikä on ns. halvan hinnan raja jolloin syöttö on aina päällä ko. piirille. Skriptiä muokkaamalla voidaan hintaohjaus sovittaa
 eri ympäristöihin mutta vakiona skripti on tehty ympäristöön jossa:
 - Switch_0 = Pattereiden kontaktorin ohjaus
 - Switch_1 = Lämminvesivaraajan kontaktorin ohjaus
@@ -17,7 +17,8 @@ Skriptin asennus:
 4. Kopioi shelly-spotteri.js tiedoston sisältö valkoiseen isoon tekstikenttään
 5. Muokkaa koodia tarpeittesi mukaan (esim releet ja urlien lämmitystunnit alussa). Ks. alla screenshot jossa näytetään miten esim pattereiden lämmitystunnit voidaan
 määrätä hinnan mukaan. Arvot asetetaan kyseisen piirin urlin loppuun näin:
-<img src="https://user-images.githubusercontent.com/5729471/199428485-e11ff5bc-5c51-4f08-95d7-bb2d403b0fa8.png" width="600" height="150">
+<img src="https://user-images.githubusercontent.com/5729471/199441089-6a880150-9fdc-4b38-b870-c23ae7003fb5.png" width="600" height="150">
+
 6. Klikkaa save and run.
 <img src="https://user-images.githubusercontent.com/5729471/199425810-8dfd4d6c-bc7f-4e9d-b1c4-a1009d4d8d13.png" width="600" height="600">
 7. Palaa aiempaan ruutuun klikkaamalla "nuoli vasemmalle" kuvasta.
