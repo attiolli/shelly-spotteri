@@ -7,6 +7,7 @@ Tehty ympäristöön jossa:
 - Switch_3 = Lämmöntiputuksen kontaktori
 (Kytketään päälle yhdessä Switch_0 kanssa, jotta lämmöntiputus pattereille aktivoituu)
 
+Skriptin asennus:
 1. Avaa shellyn web hallinta selaimella ja valitse "Scripts" menu
 2. Klikkaa Add script
 3. Kirjoita nimeksi "shelly_spotteri" ja klikkaa Save
