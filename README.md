@@ -9,6 +9,7 @@ eri ympäristöihin mutta vakiona skripti on tehty ympäristöön jossa:
 
 Shelly 4pm laitteen tiedot:
 https://www.shelly.cloud/knowledge-base/devices/shelly-pro-4pm/
+(Huom! Sähköverkon työt tulee teettää aina ammattilaisella, jolla on työhön soveltuvat luvat kunnossa!)
 
 Skriptin asennus:
 1. Avaa shellyn web hallinta selaimella ja valitse "Scripts" menu
