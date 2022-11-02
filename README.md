@@ -5,7 +5,7 @@ eri ympäristöihin mutta vakiona skripti on tehty ympäristöön jossa:
 - Switch_1 = Lämminvesivaraajan kontaktorin ohjaus
 - Switch_2 = Lattialämmityksen kontaktorin ohjaus
 - Switch_3 = Lämmöntiputuksen kontaktorin ohjaus
-(Kytketään päälle yhdessä Switch_0 kanssa, jotta lämmöntiputus pattereille aktivoituu)
+(Kytketään päälle yhdessä Switch_0 kanssa, jotta lämmöntiputus pattereille aktivoituu aka. ollaan kalliin sähkön puolella)
 
 Shelly 4pm laitteen tiedot:
 https://www.shelly.cloud/knowledge-base/devices/shelly-pro-4pm/
