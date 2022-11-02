@@ -1,5 +1,11 @@
 # shelly-spotteri
 Shelly 4pm laitteelle tehty skripti joka ohjaa releitä sähkön hinnan mukaan
+Tehty ympäristöön jossa:
+- Switch_0 = Pattereiden kontaktori
+- Switch_1 = Lämminvesivaraajan kontaktori
+- Switch_2 = Lattialämmityksen kontaktori
+- Switch_3 = Lämmöntiputuksen kontaktori
+(Kytketään päälle yhdessä Switch_0 kanssa, jotta lämmöntiputus pattereille aktivoituu)
 
 1. Avaa shellyn web hallinta selaimella ja valitse "Scripts" menu
 2. Klikkaa Add script
