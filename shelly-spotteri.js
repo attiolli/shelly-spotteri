@@ -1,5 +1,5 @@
 let CONFIG = {
-  paivitystaajuusPatteri:  5 * 60000, // 5 minuutin valein
+  paivitystaajuusPatteri:  5 * 60000, // 5 minuutin välein
   paivitystaajuusVaraaja: 5 * 60500,
   paivitystaajuusLattia: 5 * 60800,
   patteriUrl: "https://api.spot-hinta.fi/JustNowRank/8/5", // Patterit, 8 halvinta tuntia JA jos alle 5 senttiä
