@@ -7,6 +7,9 @@ Tehty ympäristöön jossa:
 - Switch_3 = Lämmöntiputuksen kontaktorin ohjaus
 (Kytketään päälle yhdessä Switch_0 kanssa, jotta lämmöntiputus pattereille aktivoituu)
 
+Shelly 4pm laitteen tiedot:
+https://www.shelly.cloud/knowledge-base/devices/shelly-pro-4pm/
+
 Skriptin asennus:
 1. Avaa shellyn web hallinta selaimella ja valitse "Scripts" menu
 2. Klikkaa Add script
