@@ -1,5 +1,5 @@
 # shelly-spotteri
-Shelly 4pm laitteelle tehty skripti joka ohjaa kontaktoreita sähkön hinnan mukaan. Skriptiä muokkaamalla voidaan hintaohjaus sovittaa
+Shelly 4pm laitteelle tehty skripti joka tutkii tasaisin välein sähkön spot hintatietoa ja ohjaa kontaktoreita tämän mukaan. Käyttäjä voi päättää monta halvinta tuntia mitäkin piiriä lämmitetään ja mikä on ns. halvan hinnan raja jolloin lämmitys on aina päällä ko. piirille. Skriptiä muokkaamalla voidaan hintaohjaus sovittaa
 eri ympäristöihin mutta vakiona skripti on tehty ympäristöön jossa:
 - Switch_0 = Pattereiden kontaktorin ohjaus
 - Switch_1 = Lämminvesivaraajan kontaktorin ohjaus
