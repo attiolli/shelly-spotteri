@@ -58,27 +58,3 @@ function LattiaOhjaus() {
 Timer.set(CONFIG.paivitystaajuusPatteri, true, function (ud) { PatteriOhjaus(); }, null);
 Timer.set(CONFIG.paivitystaajuusVaraaja, true, function (ud) { VaraajaOhjaus(); }, null);
 Timer.set(CONFIG.paivitystaajuusLattia, true, function (ud) { LattiaOhjaus(); }, null);
-
-let CONFIG = {
-  paivitystaajuusPatteri:  30000,
-  // Patterit päälle jos kuluva tunti kuuluu 8 halvimman joukkoon TAI jos alle 5 senttiä
-  patteriUrl: "https://api.spot-hinta.fi/JustNowRank/8/5",
-};
-
-function PatteriOhjaus() {
-  Shelly.call("HTTP.GET", { url: CONFIG.patteriUrl},
-  function (res, error_code, error_msg, ud) {
-  if (res.code === 200) { // Halpaa
-    Shelly.call("Switch.Set","{ id:0, on:true}", null,null);
-    Shelly.call("Switch.Set","{ id:1, on:true}", null,null);
-  }
-  else if (res.code === 400) { // Kallista
-    Shelly.call("Switch.Set","{ id:0, on:false}", null,null);
-    Shelly.call("Switch.Set","{ id:1, on:false}", null,null);
-  }
-  }, null);
-}
-
-
-// Ajastusten suoritus
-Timer.set(CONFIG.paivitystaajuusPatteri, true, function (ud) { PatteriOhjaus(); }, null);
