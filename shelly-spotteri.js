@@ -9,7 +9,7 @@ let CONFIG = {
   lattiaUrl: "https://api.spot-hinta.fi/JustNowRank/8/5",
   // Fallback asetukset. Jos hintatietoa ei saada API rajapinnasta, niin mennään näillä manuaalisilla ajastuksilla.
   // Pattereiden tapuksessa tarkoitetaan aikaväliä, jolloin pidetään normaalilämpö, muuten on tiputusmoodi.
-  // Huom! StartHour pitää kaikissa olla asetettu suuremmaksi kuin StopHour lukema.
+  // Huom! Jos haluat asettaa keskiyön tunnin fallback määrityksissä, niin ilmaise se merkinnällä '24' !!!
   patteriStartHour: 23,
   patteriStopHour: 7,
   varaajaStartHour: 23,
