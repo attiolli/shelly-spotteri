@@ -3,7 +3,7 @@ let CONFIG = {
   paivitystaajuusPatteri:  5 * 60000, // 5 minuutin välein
   paivitystaajuusVaraaja: 5 * 60500,
   paivitystaajuusLattia: 5 * 60800,
-  // API asetukset. Patterit päälle jos kuluva tunti kuuluu 8 halvimman joukkoon TAI jos alle 5 senttiä.
+  // API asetukset. Esim varaajaUrl tapauksessa: Varaaja päälle jos kuluva tunti kuuluu 6 halvimman joukkoon TAI jos hinta on alle 5 senttiä.
   patteriUrl: "https://api.spot-hinta.fi/JustNowRank/8/5",
   varaajaUrl: "https://api.spot-hinta.fi/JustNowRank/6/5",
   lattiaUrl: "https://api.spot-hinta.fi/JustNowRank/8/5",
