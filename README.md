@@ -18,7 +18,6 @@ Shelly-spotteri skriptin asennus:
 4. Kopioi shelly-spotteri.js tiedoston sisältö valkoiseen isoon tekstikenttään.
 5. Muokkaa koodia tarpeittesi mukaan (R1-3 kohdissa olevat let arvot skriptin alussa)
 6. Klikkaa save and run.
-<img src="https://user-images.githubusercontent.com/5729471/199425810-8dfd4d6c-bc7f-4e9d-b1c4-a1009d4d8d13.png" width="600" height="600">
 7. Palaa aiempaan ruutuun klikkaamalla "nuoli vasemmalle" kuvasta.
 <img src="https://user-images.githubusercontent.com/5729471/199427340-6cfa81ff-eca9-4009-b4ce-f46ec64f7aa7.png" width="600" height="150">
 8. Klikkaa "enable" jotta skripti tulee käyttöön
