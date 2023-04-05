@@ -11,16 +11,12 @@ Shelly 4pm laitteen tiedot:
 https://www.shelly.cloud/knowledge-base/devices/shelly-pro-4pm/
 (Huom! Sähköverkon työt tulee teettää aina ammattilaisella, jolla on työhön soveltuvat luvat kunnossa!)
 
-
 Shelly-spotteri skriptin asennus:
 1. Avaa shellyn web hallinta selaimella ja valitse "Scripts" menu
 2. Klikkaa Add script
 3. Kirjoita nimeksi "shelly_spotteri" ja klikkaa Save
 4. Kopioi shelly-spotteri.js tiedoston sisältö valkoiseen isoon tekstikenttään.
-5. Muokkaa koodia tarpeittesi mukaan (API urlit sekä fallback ajat). Ks. alla screenshot jossa näytetään miten esim pattereiden lämmitystunnit voidaan
-määrätä hinnan mukaan. Arvot asetetaan kyseisen piirin urlin loppuun näin:
-<img src="https://user-images.githubusercontent.com/5729471/199441089-6a880150-9fdc-4b38-b870-c23ae7003fb5.png" width="600" height="150">
-
+5. Muokkaa koodia tarpeittesi mukaan (R1-3 kohdissa olevat let arvot skriptin alussa)
 6. Klikkaa save and run.
 <img src="https://user-images.githubusercontent.com/5729471/199425810-8dfd4d6c-bc7f-4e9d-b1c4-a1009d4d8d13.png" width="600" height="600">
 7. Palaa aiempaan ruutuun klikkaamalla "nuoli vasemmalle" kuvasta.
@@ -30,4 +26,4 @@ määrätä hinnan mukaan. Arvot asetetaan kyseisen piirin urlin loppuun näin:
 
 9. Jos joudut jatkossa muokkaamaan skriptiä uudelleen niin skripti täytyy ensin pysäyttää "Stop" napista. Tämän jälkeen tee skriptin editointi ja sitten taas "Save and run"
 
-Kansiossa on myös watchdog skripti jonka voit varmuuden vuoksi asentaa erillisenä skriptinä spotterin rinnalle. Watchdog valvoo 60sec välein että spotteri on hengissä ja jos spotteri jostain syystä on stopped tilassa, niin se käynnistetään uudelleen. Huom! Watchdog koodissa oletetaan että spotteri pyörii id:llä "1". Jos näin ei ole omassa ympäristössäsi (eli sinulla on muitakin skriptejä pyörimässä) niin vaihda oikea spotteri skriptin id watchdogin kohtaan "Script.Start".
+Kansiossa on myös watchdog skripti jonka voit varmuuden vuoksi asentaa erillisenä skriptinä spotterin rinnalle. Watchdog valvoo 60sec välein että spotteri on hengissä ja jos spotteri jostain syystä on stopped tilassa, niin se käynnistetään uudelleen. Huom! Watchdog koodissa oletetaan että spotteri pyörii id:llä "1". Jos näin ei ole omassa ympäristössäsi (eli sinulla on muitakin skriptejä pyörimässä) niin vaihda oikea spotteri skriptin id watchdogin kohtaan "MonitoredScript_1".
